@@ -34,8 +34,8 @@ public class Templateer extends JFrame {
     private static JScrollPane textAreaScrollView, reqAreaScrollView, conAreaScrollView;
     private static TitledBorder title_b, description_b,
             requirements_b, contact_b, choiceGroup_b;
-    private static JTextField title, syllabusLink;
-    private static JTextArea description, requirements, contact, prerequisites;
+    private static JTextField title;
+    private static JTextArea description, requirements, contact;
     private static GridBagConstraints constraints;
     private static ButtonGroup choiceGroup;
     private static JRadioButton guiRadioYes, guiRadioNo;
